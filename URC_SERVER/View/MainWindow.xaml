@@ -1,0 +1,87 @@
+﻿<Window x:Class="URC_Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:URC_Server.Controls"
+        Icon="/Resources/icons/ic_LOGO.png"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing"
+        Title="URC Server" MinHeight="500" MaxHeight="500" MinWidth="700" MaxWidth="700" Height="500" Width="700">
+        <DockPanel>
+            <Grid DockPanel.Dock="Bottom" Height="30" Background="#0080FF">
+                <Grid.Resources>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="FontFamily" Value="Consolas"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="Foreground" Value="#fff"/>
+                        <Setter Property="FontSize" Value="15"/>
+                        <Setter Property="Margin" Value="10 0 0 0"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="txtIsHappen" Grid.Column="0" DataContext="{Binding SelectedItem, ElementName=tabPrincipal}" Text="{Binding Header}" />
+            <TextBlock x:Name="txtConnection" Grid.Column="1" Text="{Binding ErrorSMS}" Foreground="#131C16"/>
+            </Grid>
+
+            <!--Programa principal-->
+        <DockPanel DockPanel.Dock="Top" Background="#44399CFC">
+            <TabControl Background="#77399CFC" x:Name="tabPrincipal">
+                    <TabControl.ItemContainerStyle>
+                        <Style TargetType="{x:Type TabItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type TabItem}">
+                                        <Grid Width="100" Height="30">
+                                            <Border 
+											x:Name="Border"
+											Background="#88399CFC"
+											BorderBrush="Black" 
+											BorderThickness="1,1,1,1" 
+											CornerRadius="4,12,0,0" >
+                                                <ContentPresenter x:Name="ContentSite"
+												VerticalAlignment="Center"
+												HorizontalAlignment="Center"
+												ContentSource="Header"
+												Margin="12,2,12,2"
+												RecognizesAccessKey="True"/>
+                                            </Border>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsSelected" Value="True">
+                                                <Setter Property="Panel.ZIndex" Value="100" />
+                                            <Setter TargetName="Border" Property="Background" Value="#399CFC" />
+                                                <Setter TargetName="Border" Property="BorderThickness" Value="1,1,1,0" />
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter TargetName="Border" Property="Background" Value="Gray" />
+                                                <Setter TargetName="Border" Property="BorderBrush" Value="Black" />
+                                                <Setter Property="Foreground" Value="Gray" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </TabControl.ItemContainerStyle>
+                    <!--INICIO-->
+                <TabItem Header="{DynamicResource TAB_index}">
+                    <local:Inicio_xaml/>
+                </TabItem>
+                    <!--CONEXION-->
+                <TabItem Header="{DynamicResource TAB_conexion}">
+                    <local:Conexion/>
+                </TabItem>
+                    <!--Mando-->
+                <TabItem Header="{DynamicResource TAB_control}">
+                        <local:BtnConfig/>
+                </TabItem>
+                <!--Configuracion-->
+                <TabItem Header="{DynamicResource TAB_config}">
+                    <local:Config/>
+                </TabItem>
+            </TabControl>
+            </DockPanel>
+        </DockPanel>
+</Window>

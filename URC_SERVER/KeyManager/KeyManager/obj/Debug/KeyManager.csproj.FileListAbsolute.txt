@@ -1,0 +1,19 @@
+G:\Visual Studio\Projects\KeyManager\KeyManager\obj\Debug\KeyManager.csprojResolveAssemblyReference.cache
+G:\Visual Studio\Projects\KeyManager\KeyManager\bin\Debug\KeyManager.dll
+G:\Visual Studio\Projects\KeyManager\KeyManager\bin\Debug\KeyManager.pdb
+G:\Visual Studio\Projects\KeyManager\KeyManager\obj\Debug\KeyManager.dll
+G:\Visual Studio\Projects\KeyManager\KeyManager\obj\Debug\KeyManager.pdb
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\bin\Debug\KeyManager.dll
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\bin\Debug\KeyManager.pdb
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\obj\Debug\KeyManager.dll
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\obj\Debug\KeyManager.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\bin\Debug\KeyManager.dll
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\bin\Debug\KeyManager.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.dll
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\bin\Debug\KeyManager.dll
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\bin\Debug\KeyManager.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.dll
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.csprojResolveAssemblyReference.cache
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\KeyManager\KeyManager\obj\Debug\KeyManager.csprojResolveAssemblyReference.cache

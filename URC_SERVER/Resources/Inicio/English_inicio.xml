@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Inicio>
+  <Group name="Connection">
+    <Item name="Connect device">
+      <Image src="conexion_dispositivo_01.png">Make sure the two devices are on the same network.</Image>
+      <Image src="conexion_dispositivo_02.png">QR Reader.</Image>
+      <Image src="conexion_dispositivo_03.png">Manual way.</Image>
+      <Image src="conexion_dispositivo_04.png">Device connected !</Image>
+    </Item>
+  </Group>
+
+  <Group name="Controls">
+    <Item name="Buttons: New Group">
+      <Image src="Nuevo_grupo_01.png">Not all controls are modifiable.</Image>
+      <Image src="Nuevo_grupo_02.png">Enter a new name for the group.</Image>
+      <Image src="Nuevo_grupo_03.png">New group created !</Image>
+    </Item>
+    <Item name="Buttons: Remove Group">
+      <Image src="eliminar_grupo_01.png">Default groups can not be deleted.</Image>
+      <Image src="eliminar_grupo_02.png"></Image>
+      <Image src="eliminar_grupo_03.png">Group removed !</Image>
+    </Item>
+    <Item name="Buttons: Change values">
+      <Image src="asignar_teclas_01.png">You can only change keys of new groups.</Image>
+      <Image src="asignar_teclas_02.png">Press the key to be assigned.</Image>
+      <Image src="asignar_teclas_03.png">Assigned key !</Image>
+    </Item>
+  </Group>
+</Inicio>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Inicio>
+  <Group name="Conexión">
+    <Item name="Conectar dispositivo">
+      <Image src="conexion_dispositivo_01.png">Asegúrese de que los dos dispositivos estén en la misma red.</Image>
+      <Image src="conexion_dispositivo_02.png">Lector de QR.</Image>
+      <Image src="conexion_dispositivo_03.png">Forma manual.</Image>
+      <Image src="conexion_dispositivo_04.png">¡ Dispositivo conectado !</Image>
+    </Item>
+  </Group>
+
+  <Group name="Mando">
+    <Item name="Botones: Grupo nuevo">
+      <Image src="Nuevo_grupo_01.png">No todos los mandos son modificables.</Image>
+      <Image src="Nuevo_grupo_02.png">Introduzca un nuevo nombre para el grupo.</Image>
+      <Image src="Nuevo_grupo_03.png">¡ Nuevo grupo creado !</Image>
+    </Item>
+    <Item name="Botones: Quitar grupo">
+      <Image src="eliminar_grupo_01.png">Los grupos por defecto no pueden borrarse.</Image>
+      <Image src="eliminar_grupo_02.png"></Image>
+      <Image src="eliminar_grupo_03.png">¡ Grupo eliminado !</Image>
+    </Item>
+    <Item name="Botones: Cambiar valores">
+      <Image src="asignar_teclas_01.png">Solo se pueden modificar teclas de nuevos grupos.</Image>
+      <Image src="asignar_teclas_02.png">Pulse la tecla que quiera asignar.</Image>
+      <Image src="asignar_teclas_03.png">¡ Tecla asignada !</Image>
+    </Item>
+  </Group>
+</Inicio>

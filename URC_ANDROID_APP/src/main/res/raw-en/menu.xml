@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    menu_group:
+        group = Nombre del separador de grupo.
+
+    menu_row:
+        name = Nombre que aparecerá en el menú como cabecera
+        icon = Nombre del icono dentro de la carpeta res/drawable
+        id = ID del layout del fragment en res/layout  => Tener en cuenta de poner en el layout "Frag_" + nombre de la id
+        href = Nombre de la clase que cargará el layout
+-->
+<menu>
+    <menu_group group="Remote control">
+        <menu_row name="Remote control" icon="ic_mando" id="mando" href="Mando" /> <!-- No cambiar nunca el "href" se asigna automaticamente un fragment-->
+        <menu_row name="Select remote control" icon="ic_list" id="elegir" href="ElegirMando" />
+    </menu_group>
+
+    <menu_group group="Settings">
+        <menu_row name="Conexion" icon="ic_network" id="connection" href="Connection" />
+        <menu_row name="Server list" icon="ic_serverlist" id="servidores" href="SavedServers" />
+        <menu_row name="Settings" icon="ic_settings" id="ajustes" href="Ajustes" />
+    </menu_group>
+</menu>

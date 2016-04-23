@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">URC</string>
+
+    <!-- AJUSTES -->
+    <string name="nombreDispositivo">Device name:</string>
+    <string name="hintNombre">Device name...</string>
+    <string name="mandoDefecto">Default remote control:</string>
+    <string name="conexionDefecto">Favorite connection:</string>
+    <!-- TOASTS -->
+    <string name="checkData">Check modified data.</string>
+    <string name="dataSaved">Settings saved!</string>
+
+    <!-- Conexion -->
+    <string name="opcAvanzadas">Advanced options</string>
+    <string name="codeHint">QR code</string>
+    <string name="conectBoton">Connect</string>
+    <string name="disconnecting">Disconnecting...</string>
+    <string name="conexion_toast_fail">Can\'t connect.
+    Verify your data.</string>
+    <string name="fastConnect_fail">Maybe there isn\'t any fast conexion.</string>
+    <string name="connectionDialog_title">Charging</string>
+    <string name="connectionDialog_text">Connecting to server...</string>
+
+    <!-- Get QR reader -->
+    <string name="getApp">Get APP</string>
+    <string name="getApp_text">You haven\'t the QR code application.
+Get it from the market?</string>
+    <string name="getApp_decline">You can insert the QR code in advanced options.</string>
+    <string name="qr_invalid">QR code invalid.</string>
+    <string name="ip_invalid">IP invalid.</string>
+    <string name="port_invalid">Port invalid.</string>
+
+    <!-- SaveServerDialog -->
+        <!-- Error SMS -->
+        <string name="sms_serverNameUsed">Server name already exists.</string>
+        <string name="sms_serverPosition">You are trying to modify an non-existent server.</string>
+        <string name="sms_serverNameLength">You must insert a name for the server.</string>
+        <!-- Interfaz -->
+        <string name="serverSave_serverName">Server name</string>
+        <string name="serverSave_port">Port</string>
+        <string name="serverSave_saveBtn">Save</string>
+        <!-- Dialog -->
+        <string name="Connection">Connect</string>
+        <string name="Remove">Remove</string>
+        <string name="Modify">Modify</string>
+
+    <!-- Groups -->
+    <string name="setGroup_title">Select one config</string>
+
+    <!-- Constants -->
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="welcome">Welcome</string>
+    <string name="deviceName">Name for device</string>
+    <string name="start">Start</string>
+</resources>

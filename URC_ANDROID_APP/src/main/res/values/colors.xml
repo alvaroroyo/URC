@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorIconos">#888</color>
+
+    <!--Color de barra superior-->
+    <color name="colorBar">#1976d2</color>
+
+    <!--Colores del dialog_menu-->
+    <color name="navDrawerBackground">#2A6ABD</color>
+    <color name="menu_text">#fff</color>
+
+    <color name="menu_saparator_bg">#333</color>
+    <color name="menu_separator_text">#fff</color>
+
+        <!--<color name="menu_border"></color>  => Drawable/dialog_menu.xmlenu.xml -->
+
+        <!--<color name="menu_normal">#999</color>  => Drawable/dialog_menu.xmlenu.xml -->
+    <color name="menu_focus">#1670F5</color>
+    <color name="menu_hover">#CCD7E7</color>
+
+    <!-- COLORES MOUSE -->
+    <color name="tabsurface">#00c853</color>
+    <color name="tabscroll">#ccff90</color>
+    <color name="tableft">#ffd54f</color>
+    <color name="tableftClick">#ffb300</color>
+    <color name="tabright">#e57373</color>
+    <color name="tabrightClick">#ef5350</color>
+
+    <!-- Colores fondo -->
+    <color name="background_color">#ffe082</color>
+
+    <!-- COLOR BOTON HOVER -->
+    <color name="button_hover">#77f0be67</color>
+</resources>

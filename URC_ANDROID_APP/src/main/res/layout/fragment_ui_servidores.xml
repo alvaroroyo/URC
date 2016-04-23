@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Frag_servidores"
+    android:background="@color/background_color">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00e676"
+            android:id="@+id/serverSaved_cabecera">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textSize="23sp"
+                android:src="@drawable/title_serverlist"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:src="@drawable/ic_addserver"
+                android:id="@+id/saveNewServerBtn"
+                android:background="@drawable/xx_buttons_hover"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:layout_below="@id/serverSaved_cabecera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/serverSaveList"
+            android:scrollbars="none"
+            android:background="#fff"/>
+
+        <View
+            android:background="@drawable/xx_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/serverSaved_cabecera"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

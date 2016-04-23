@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="URC_Server.Controls.Config"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:p="clr-namespace:URC_Server.Properties"
+             xmlns:local="clr-namespace:URC_Server.Controls"
+             MinHeight="400" MinWidth="600" MaxHeight="500" MaxWidth="700"
+             Name="ConfigUC">
+    <ScrollViewer VerticalScrollBarVisibility="Visible">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- Columna 1 -->
+            <StackPanel Orientation="Vertical" Grid.Column="0" Margin="5 0">
+
+                <GroupBox Header="{DynamicResource config_title_conexion}" Height="100" VerticalAlignment="Top" FontSize="15">
+
+                    <Grid Margin="0 5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <!-- Conexiones maximas -->
+                        <TextBlock Text="{DynamicResource config_maxConexion}" FontSize="13" />
+                        <local:Incrementer x:Name="Incremente" Min="1" Max="10" Grid.Column="1"/>
+                        <!-- Preguntar al establecer -->
+                        <TextBlock Grid.Row="1" Text="{DynamicResource config_askBefore}" FontSize="13" TextWrapping="Wrap" Margin="0 5" />
+                        <CheckBox Grid.Row="1" Grid.Column="1" IsChecked="{Binding QuestionBeforeConnection}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+
+                </GroupBox>
+
+                <GroupBox Header="{DynamicResource config_title_mouse}" Height="100" VerticalAlignment="Top" FontSize="15">
+                    <Grid Margin="0 5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <!-- Mouse sensibility -->
+                        <TextBlock Text="{DynamicResource config_mouseSensibility}" FontSize="13" TextWrapping="Wrap" Margin="0 5"/>
+                        <Slider Grid.Column="1" Minimum="1" Maximum="3" Interval="1" Value="{Binding MouseSensibility}" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" IsMoveToPointEnabled="False" Margin="0 5"/>
+                        <!-- Scroll sensibility -->
+                        <TextBlock Text="{DynamicResource config_scrollSensibility}" Grid.Row="1" FontSize="13" TextWrapping="Wrap" Margin="0 5"/>
+                        <Slider Grid.Row="1" Grid.Column="1" Minimum="10" Ticks="1" Value="{Binding ScrollSensibility}" Maximum="200" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="0" IsMoveToPointEnabled="False" Margin="0 5"/>
+                    </Grid>
+                </GroupBox>
+
+            </StackPanel>
+            <!-- Columna 2 -->
+            <StackPanel Orientation="Vertical" Grid.Column="1" Margin="5 0">
+
+                <GroupBox Header="{DynamicResource config_title_adjust}" Height="100" VerticalAlignment="Top" FontSize="15" Grid.Column="1">
+
+                    <Grid Margin="0 5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!--Idioma-->
+                        <TextBlock Text="{DynamicResource config_language}" FontSize="13"/>
+                        <ComboBox Grid.Column="1" ItemsSource="{Binding Languages.Keys}" SelectedValue="{Binding SelectedLanguage}" />
+                    </Grid>
+
+                </GroupBox>
+
+            </StackPanel>
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

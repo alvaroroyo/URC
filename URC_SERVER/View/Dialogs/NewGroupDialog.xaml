@@ -1,0 +1,29 @@
+﻿<Window x:Class="URC_Server.View.NewGroupDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource dialog_newGroup_title}" Height="200" Width="400"
+        ContentRendered="Window_ContentRendered"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{DynamicResource dialog_newGroup_text}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontWeight="Bold" Foreground="#AA4F39"/>
+
+        <TextBox Name="txtGroupName" Grid.Row="1" BorderThickness="2" Text="{DynamicResource dialog_newGroup_hint}" FontSize="25" Foreground="#AA8A39" BorderBrush="#AA8A39" Margin="10 0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        
+        <Grid Grid.Row="2" Margin="0 5 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button IsDefault="True" Name="btnDialogOk" Click="btnDialogOk_Click" Content="{DynamicResource Accept}" />
+            <Button Grid.Column="1" IsCancel="True" Content="{DynamicResource Cancel}" />
+
+        </Grid>
+    </Grid>
+</Window>

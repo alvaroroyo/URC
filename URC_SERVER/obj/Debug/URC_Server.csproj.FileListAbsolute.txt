@@ -1,0 +1,162 @@
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\URC_Server.exe.config
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\URC_Server.exe
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\URC_Server.pdb
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.dll
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\App.g.cs
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.g.resources
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.exe
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server.pdb
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\View\MainWindow.g.cs
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+c:\users\alvaroroyo\documents\visual studio 2013\Projects\URC_Server\URC_Server\obj\Debug\View\MainWindow.baml
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe.config
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.exe
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.pdb
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.g.cs
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.g.cs
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.pdb
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.baml
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.g.resources
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe.config
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.exe
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.pdb
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.dll
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.g.cs
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.g.cs
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.baml
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.g.resources
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.pdb
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\InputSimulator.dll
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\InputSimulator.pdb
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\InputSimulator.xml
+I:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\InputSimulator.pdb
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\InputSimulator.xml
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+E:\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\MouseKeyboardLibrary.dll
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe.config
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.exe
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.pdb
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.pdb
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.g.cs
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.g.cs
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.baml
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.g.resources
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.dll
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.pdb
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\INIFile.dll
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\INIFile.pdb
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\BtnConfig.baml
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\BtnConfig.g.cs
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.dll
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+G:\Alvaro Royo\Documents\Programacion\Proyecto\Programacion\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\GeneratedInternalTypeHelper.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe.config
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.exe
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\GeneratedInternalTypeHelper.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.g.resources
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.dll
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.dll
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\ModalYesNoDialog.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\NewGroupDialog.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\ModalYesNoDialog.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\NewGroupDialog.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\AsignarTeclaDialog.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\AsignarTeclaDialog.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\AsignarTeclaDialog.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\ModalYesNoDialog.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\NewGroupDialog.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\AsignarTeclaDialog.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\ModalYesNoDialog.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\NewGroupDialog.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.cache
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server_MarkupCompile.lref
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.exe
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.pdb
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\BtnConfig.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Conexion.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Config.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Inicio.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\BtnConfig.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Conexion.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Config.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Inicio.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Incrementer.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Incrementer.g.cs
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Resources\Languages\English.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\CanConnectDialog.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\CanConnectDialog.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Incrementer.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\BtnConfig.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Conexion.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Inicio.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Resources\Languages\English.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\CanConnectDialog.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Incrementer.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\BtnConfig.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Conexion.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Config.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Inicio.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\Dialogs\CanConnectDialog.g.cs
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Controls\Views\Config.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe.config
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.exe
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\URC_Server.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.dll
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\KeyManager.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\bin\Debug\Gma.QrCodeNet.Encoding.xml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\View\MainWindow.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.g.resources
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csproj.GenerateResource.Cache
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.csprojResolveAssemblyReference.cache
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\URC_Server.Properties.Resources.resources
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.baml
+D:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Resources\Languages\Español.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\Resources\Languages\Español.baml
+J:\DAM\Proyecto\PROYECTO\Etapas\SERVIDOR\URC_Server\obj\Debug\App.baml

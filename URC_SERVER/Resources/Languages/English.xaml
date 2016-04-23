@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="TAB_index">Home</system:String>
+    <system:String x:Key="TAB_conexion">Connection</system:String>
+    <system:String x:Key="TAB_control">Controls</system:String>
+    <system:String x:Key="TAB_config">Configuration</system:String>
+
+    <!--View conexion-->
+    <system:String x:Key="conexion_title">Connections</system:String>
+    <system:String x:Key="conexion_btn_disconnect">Disconnect</system:String>
+    <system:String x:Key="conexion_helpText">Read QR code with your device application for one automatic connection. In case of error try the manual connection.</system:String>
+    
+    <!--View buttons-->
+    <system:String x:Key="controls_btn_assign">Assign</system:String>
+
+    <!--View Config-->
+    <system:String x:Key="config_title_conexion">Connections</system:String>
+    <system:String x:Key="config_maxConexion">Max connections:</system:String>
+    <system:String x:Key="config_askBefore">Ask before connections:</system:String>
+
+    <system:String x:Key="config_title_adjust">Settings</system:String>
+    <system:String x:Key="config_language">Language:</system:String>
+
+    <system:String x:Key="config_title_mouse">Mouse</system:String>
+    <system:String x:Key="config_mouseSensibility">Mouse sensibility</system:String>
+    <system:String x:Key="config_scrollSensibility">Scroll sensibility</system:String>
+
+    <!--Dialog asignar-->
+    <system:String x:Key="dialog_assign_title">Assign...</system:String>
+    <system:String x:Key="diagol_assign_text">Press any key to assign...</system:String>
+    <!--Dialog accept,cancel-->
+    <system:String x:Key="dialog_remove_text">Do you want to remove</system:String>
+    <!--Dialog new group-->
+    <system:String x:Key="dialog_newGroup_title">New group</system:String>
+    <system:String x:Key="dialog_newGroup_text">Group name</system:String>
+    <system:String x:Key="dialog_newGroup_hint">New group</system:String>
+
+    <!-- Constants -->
+    <system:String x:Key="Accept">Aceptar</system:String>
+    <system:String x:Key="Cancel">Cancelar</system:String>
+    <system:String x:Key="Yes">Si</system:String>
+    <system:String x:Key="No">No</system:String>
+</ResourceDictionary>

@@ -1,0 +1,4 @@
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\bin\Release\KeyManager.dll
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\bin\Release\KeyManager.pdb
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\obj\Release\KeyManager.dll
+G:\Visual Studio\Projects\MIS LIBRERIAS\KeyManager\KeyManager\obj\Release\KeyManager.pdb

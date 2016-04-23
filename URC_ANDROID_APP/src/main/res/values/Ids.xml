@@ -1,0 +1,14 @@
+<resources>
+    <item type="id" name="btnMenu"/>
+    <item type="id" name="contentCon"/>
+    <item type="id" name="connectY"/>
+    <item type="id" name="connectN"/>
+
+    <item type="id" name="btnEjes"/>
+    <item type="id" name="btnL"/>
+    <item type="id" name="btnR"/>
+    <item type="id" name="btnT"/>
+    <item type="id" name="btnB"/>
+
+    <item type="id" name="jostick"/>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Frag_ajustes">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btn_save"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_ajustesSave"/>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.freeworld.mando.CustomComponents.MenuLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:titulo="@string/nombreDispositivo"
+                custom:tituloColor="#155EC4">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#fff"
+                    android:maxLength="20"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/hintNombre"
+                    android:id="@+id/et_ajustes_name"/>
+
+            </com.freeworld.mando.CustomComponents.MenuLayout>
+
+            <com.freeworld.mando.CustomComponents.MenuLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:titulo="@string/mandoDefecto"
+                custom:tituloColor="#155EC4">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/MandoDefaultSpinner"/>
+
+            </com.freeworld.mando.CustomComponents.MenuLayout>
+
+            <com.freeworld.mando.CustomComponents.MenuLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:titulo="@string/conexionDefecto"
+                custom:tituloColor="#155EC4">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/MandoDefaultConexion"/>
+
+            </com.freeworld.mando.CustomComponents.MenuLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

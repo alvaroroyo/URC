@@ -1,0 +1,11 @@
+<mandos>
+    <mando name="Games" icon="ic_game" href="Juego"/>
+
+    <mando name="Multimedia" icon="ic_multimedia" href="Multimedia"/>
+
+    <mando name="Presentations" icon="ic_presentation" href="Presentaciones"/>
+
+    <mando name="Mouse" icon="ic_mouse" href="Mouse"/>
+
+    <mando name="Keyboard" icon="ic_keyboard" href="Teclado"/>
+</mandos>

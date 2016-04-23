@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+
+    <declare-styleable name="MenuLayoutAjustes">
+        <attr name="titulo" format="string"/>
+        <attr name="tituloColor" format="color"/>
+    </declare-styleable>
+
+    <string-array name="menu">
+        <item>Prueba 1</item>
+        <item>Prueba 2</item>
+        <item>Prueba 3</item>
+        <item>Prueba 4</item>
+        <item>Prueba 5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/Frag_mando">
+
+    <!-- Botones -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_btnderecha"
+        android:id="@+id/btnR"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_eje"
+        android:id="@+id/btnEje"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/btnR"
+        android:layout_toLeftOf="@+id/btnR" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_btnarriba"
+        android:id="@+id/btnT"
+        android:layout_above="@+id/btnEje"
+        android:layout_alignLeft="@+id/btnEje"
+        android:layout_alignStart="@+id/btnEje"
+        android:layout_marginBottom="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_btnizquierda"
+        android:id="@+id/btnL"
+        android:layout_below="@+id/btnT"
+        android:layout_toLeftOf="@+id/btnEje"
+        android:layout_toStartOf="@+id/btnEje"
+        android:layout_marginRight="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_btnabajo"
+        android:id="@+id/btnB"
+        android:layout_below="@+id/btnEje"
+        android:layout_alignLeft="@+id/btnEje"
+        android:layout_alignStart="@+id/btnEje"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="270"
+        android:scaleType="fitXY"
+        android:src="@drawable/principal_game_arrow"
+        android:id="@+id/FL"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/jostick"
+        android:layout_toEndOf="@+id/jostick" />        <!-- FLECHA IZQUIERDA -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_arrow"
+        android:id="@+id/FT"
+        android:layout_marginBottom="-10dp"
+        android:layout_above="@+id/FL"
+        android:layout_toRightOf="@+id/FL"
+        android:layout_toEndOf="@+id/FL" />         <!-- FLECHA ARRIBA -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:scaleType="fitXY"
+        android:src="@drawable/principal_game_arrow"
+        android:id="@+id/FR"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/FT"
+        android:layout_toRightOf="@+id/FT"
+        android:layout_toEndOf="@+id/FT" />         <!-- FLECHA DERECHA -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        android:src="@drawable/principal_game_arrow"
+        android:id="@+id/FB"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/FR"
+        android:layout_toLeftOf="@+id/FR"
+        android:layout_toStartOf="@+id/FR" />       <!-- FLECHA ABAJO -->
+
+    <!-- JOYSTICK -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/principal_game_jostick"
+        android:id="@+id/jostick"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

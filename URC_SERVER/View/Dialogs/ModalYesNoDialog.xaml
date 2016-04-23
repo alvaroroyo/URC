@@ -1,0 +1,26 @@
+﻿<Window x:Class="URC_Server.View.Dialogs.ModalYesNoDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="ModalYesNoDialog" Height="180" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{DynamicResource dialog_remove_text}" Name="txtText" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" TextWrapping="Wrap"/>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button IsDefault="True" Content="{DynamicResource Yes}" Height="50" Width="140" Click="Button_Click"/>
+            <Button Grid.Column="1" IsCancel="True" Content="{DynamicResource No}" Height="50" Width="140"/>
+
+        </Grid>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">URC</string>
+
+    <!-- AJUSTES -->
+    <string name="nombreDispositivo">Nombre del dispositivo:</string>
+    <string name="hintNombre">Nombre del dispositivo...</string>
+    <string name="mandoDefecto">Mando por defecto:</string>
+    <string name="conexionDefecto">Conexion favorita:</string>
+        <!-- TOASTS -->
+        <string name="checkData">Compruebe los datos modificados.</string>
+        <string name="dataSaved">Ajustes guardados!</string>
+
+    <!-- Conexion -->
+    <string name="opcAvanzadas">Opciones avanzadas</string>
+    <string name="codeHint">Código QR</string>
+    <string name="conectBoton">Conectar</string>
+    <string name="disconnecting">Desconectando...</string>
+    <string name="conexion_toast_fail">No se ha podido conectar.
+        Compruebe los datos.</string>
+    <string name="fastConnect_fail">Es posible que no haya conexiones rápidas creadas.</string>
+    <string name="connectionDialog_title">Cargando</string>
+    <string name="connectionDialog_text">Conectando al servidor...</string>
+
+    <!-- Get QR reader -->
+    <string name="getApp">Obtener APP</string>
+    <string name="getApp_text">No dispone de la aplicación necesaria para leer códigos QR.
+¿Desea obtenerla del Market?</string>
+    <string name="getApp_decline">Puede introducir el código manualmente pulsando sobre opciones avanzadas.</string>
+    <string name="qr_invalid">Código QR invalido.</string>
+    <string name="ip_invalid">IP no válida.</string>
+    <string name="port_invalid">Puerto no válido.</string>
+
+    <!-- SaveServerDialog -->
+        <!-- Error SMS -->
+        <string name="sms_serverNameUsed">El nombre del servidor ya existe.</string>
+        <string name="sms_serverPosition">Intenta modificar un servidor que no existe.</string>
+        <string name="sms_serverNameLength">Debe introducir un nombre para el servidor.</string>
+        <!-- Interfaz -->
+        <string name="serverSave_serverName">Nombre del servidor</string>
+        <string name="serverSave_port">Puerto</string>
+        <string name="serverSave_saveBtn">Guardar</string>
+        <!-- Dialog -->
+        <string name="Connection">Conectar</string>
+        <string name="Remove">Borrar</string>
+        <string name="Modify">Modificar</string>
+
+    <!-- Groups -->
+    <string name="setGroup_title">Seleccione una configuración</string>
+
+    <!-- Constants -->
+    <string name="YES">Si</string>
+    <string name="NO">No</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="deviceName">Nombre para su dispositivo</string>
+    <string name="start">Empezar</string>
+</resources>

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D151199A-2452-4F74-ACBD-93A4F877CEA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>URC_Server</RootNamespace>
+    <AssemblyName>URC_Server</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gma.QrCodeNet.Encoding">
+      <HintPath>..\Resources\QrCode.Net 0.4 Pre-Release\Gma.QrCodeNet.Encoder\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\Incrementer.xaml.cs">
+      <DependentUpon>Incrementer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Views\BtnConfig.xaml.cs">
+      <DependentUpon>BtnConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Views\Conexion.xaml.cs">
+      <DependentUpon>Conexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Views\Config.xaml.cs">
+      <DependentUpon>Config.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Views\Inicio.xaml.cs">
+      <DependentUpon>Inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Conexiones\IClient.cs" />
+    <Compile Include="Model\Conexiones\Conexion.cs" />
+    <Compile Include="Model\Conexiones\PoolConexiones.cs" />
+    <Compile Include="Model\Conexiones\Servidor.cs" />
+    <Compile Include="Model\Configuraciones\Config.cs" />
+    <Compile Include="Model\Configuraciones\Mando.cs" />
+    <Compile Include="Model\Configuraciones\XMLMandos.cs" />
+    <Compile Include="Model\Inicio\Inicio.cs" />
+    <Compile Include="Model\Inicio\ParseInicio.cs" />
+    <Compile Include="Model\LogFile.cs" />
+    <Compile Include="Model\RelayCommand.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\BtnConfigViewModel.cs" />
+    <Compile Include="ViewModel\ConexionViewModel.cs" />
+    <Compile Include="ViewModel\ConfigViewModel.cs" />
+    <Compile Include="ViewModel\InicioViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="View\Dialogs\AsignarTeclaDialog.xaml.cs">
+      <DependentUpon>AsignarTeclaDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialogs\CanConnectDialog.xaml.cs">
+      <DependentUpon>CanConnectDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialogs\ModalYesNoDialog.xaml.cs">
+      <DependentUpon>ModalYesNoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialogs\NewGroupDialog.xaml.cs">
+      <DependentUpon>NewGroupDialog.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\Incrementer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Views\BtnConfig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Views\Conexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Views\Config.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\Views\Inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Languages\English.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Languages\Español.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialogs\AsignarTeclaDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialogs\CanConnectDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialogs\ModalYesNoDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\Dialogs\NewGroupDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\ic_networkon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\ic_LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia.png" />
+    <Resource Include="Resources\Icons\Mandos\Presentaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\ic_unknow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Play_Pause.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Avanzar.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Apagar.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Bajar_Volumen.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Subir_Volumen.png" />
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Multimedia\Boton_Atrasar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_control_abajo.png" />
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_control_arriba.png" />
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_control_derecha.png" />
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_control_izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_movimiento_arriba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_movimiento_derecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_movimiento_abajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Juego\Boton_de_movimiento_izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Presentaciones\Anterior_Diapositiva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\Mandos\Presentaciones\Siguiente_Diapositiva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\conexion_dispositivo_01.png" />
+    <Resource Include="Resources\Inicio\conexion_dispositivo_02.png" />
+    <Resource Include="Resources\Inicio\conexion_dispositivo_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\conexion_dispositivo_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\Nuevo_grupo_01.png" />
+    <Resource Include="Resources\Inicio\Nuevo_grupo_02.png" />
+    <Resource Include="Resources\Inicio\Nuevo_grupo_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\eliminar_grupo_01.png" />
+    <Resource Include="Resources\Inicio\eliminar_grupo_02.png" />
+    <Resource Include="Resources\Inicio\eliminar_grupo_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\asignar_teclas_01.png" />
+    <Resource Include="Resources\Inicio\asignar_teclas_02.png" />
+    <Resource Include="Resources\Inicio\asignar_teclas_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KeyManager\KeyManager\KeyManager.csproj">
+      <Project>{b673c6ab-9729-4322-840d-8cda48ea9bd7}</Project>
+      <Name>KeyManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\arrowLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\arrowRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\Español_inicio.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Inicio\English_inicio.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

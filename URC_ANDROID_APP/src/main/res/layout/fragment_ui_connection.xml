@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/Frag_connection"
+    android:background="@color/background_color">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="49.5">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_qrreader"
+            android:layout_gravity="center"
+            android:id="@+id/btn_qrReader"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#555"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="49.5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="160dp"
+                android:maxWidth="160dp"
+                android:minWidth="100dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:hint="Código QR"
+                android:id="@+id/txtQRCode"
+                android:background="#fff"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_connectmanual"
+                android:paddingLeft="8dp"
+                android:id="@+id/btnConnect"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<ScrollView
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_qrreader"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btn_qrReader"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/opcAvanzadas"
+                android:layout_marginTop="15dp"
+                android:textSize="9sp"
+                android:id="@+id/BtnOpcionesAvanzadas"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/OpcionesAvanzadasLayout"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:visibility="gone">
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/codeHint"
+                    android:textAlignment="center"
+                    android:id="@+id/txtQRCode"
+                    android:layout_margin="20dp"
+                    />
+                
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:text="@string/conectBoton"
+                    android:id="@+id/btnConnect"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>-->
+
+</LinearLayout>

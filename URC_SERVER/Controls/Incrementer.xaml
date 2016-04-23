@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="URC_Server.Controls.Incrementer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Height="20" Width="85">
+    <StackPanel Orientation="Horizontal">
+        <Button Height="20" Width="20" VerticalContentAlignment="Center" Command="{Binding Path=BtnMin}">
+            <Image Source="../Resources/Icons/arrowLeft.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+        </Button>
+        
+        <TextBox Height="20" Width="35" Margin="5 0" Text="{Binding Path=Texto}" TextAlignment="Center" IsReadOnly="True" />
+
+        <Button Height="20" Width="20" VerticalContentAlignment="Center" Command="{Binding Path=BtnMax}">
+            <Image Source="../Resources/Icons/arrowRight.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+        </Button>
+    </StackPanel>
+</UserControl>
